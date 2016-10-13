@@ -1,0 +1,56 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "f08f1313-cdf8-4988-9512-290bd95f6917"
+  core:
+    disabledPackages: [
+      "atom-html-preview"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".unison"
+      "CVS"
+      ".AppleDouble"
+      ".LSOverride"
+      ".Spotlight-V100"
+      ".Trashes"
+      "desktop.ini"
+      "*.lock"
+      "*.sock"
+      "*.pid"
+      "*.sw?"
+      ".unison*"
+      "*~"
+    ]
+    packagesWithKeymapsDisabled: [
+      "jsformat"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    invisibles: {}
+    preferredLineLength: 120
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "2e4b7aff-a04e-575a-50c6-f11c5840add5"
+  jsformat:
+    format_on_save: false
+    indent_with_tabs: true
+    jslint_happy: true
+  linter:
+    errorPanelHeight: 26
+  nitrogen:
+    showWelcomeOnStartup: false
+  "ruby-block":
+    highlightLineNumber: true
+    showBottomPanel: false
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false

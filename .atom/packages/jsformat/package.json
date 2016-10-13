@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Temp\\d-116827-2576-k4iczz\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Temp\\d-116827-2576-k4iczz\\package.tgz",
+        "spec": "C:\\Temp\\d-116827-2576-k4iczz\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Temp\\apm-install-dir-116827-2576-zs4phm"
+    ]
+  ],
+  "_from": "..\\d-116827-2576-k4iczz\\package.tgz",
+  "_id": "jsformat@0.9.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/jsformat",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Temp\\d-116827-2576-k4iczz\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Temp\\d-116827-2576-k4iczz\\package.tgz",
+    "spec": "C:\\Temp\\d-116827-2576-k4iczz\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-116827-2576-k4iczz\\package.tgz",
+  "_shasum": "7b17af55d6cc68bdf6a4aef229b3c9409fdfbdfe",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Temp\\d-116827-2576-k4iczz\\package.tgz",
+  "_where": "C:\\Temp\\apm-install-dir-116827-2576-zs4phm",
+  "activationCommands": [],
+  "bugs": {
+    "url": "https://github.com/jdc0589/jsformat-atom/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "~2.0.3",
+    "event-kit": "~0.8.1",
+    "js-beautify": "~1.5.4"
+  },
+  "description": "javascript formatting for the atom text editor",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.100.0"
+  },
+  "homepage": "https://github.com/jdc0589/jsformat-atom#readme",
+  "keywords": [
+    "format",
+    "javascript",
+    "beautify",
+    "prettify"
+  ],
+  "license": "MIT",
+  "main": "./lib/format",
+  "name": "jsformat",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# JsFormat\n\nJavaScript + JSON formatting/beautification for the Atom text editor.\n\n#### Keybinding\n`ctrl+alt+f`\n\n#### Command Palette\n`Jsformat: Format`\n\n#### Settings\nJsFormat uses whatever tab/indent settings are configured with the standard ```Tab Length``` Atom settings.  \n\nThe ```Preferred Line Length``` Atom setting is only respected when the ```Soft Wrap At Preferred Line Length``` Atom setting is enabled.  \n\nBy default, JSFormat's Format on save is set to true.\n\nThe following **JsBeautifier** settings are available through the JsFormat settings panel (defaults shown below). Check out the official [jsbeautifier documentation](https://github.com/einars/js-beautify#options) for more details on the options:\n\n* Indent with tabs: false\n* End with newline: true\n* Max preserve newlines: 4\n* Preserve newlines: true\n* Space in parentheses: false\n* JSLint happy: false\n* Brace style: \"collapse\"\n* Keep array indentation: false\n* Keep function indentation: false\n* Space after anonymous functions: false\n* Space before conditional: true\n* Evaluate code: false\n* Unescape strings: false\n* Break Chained Methods: false\n* e4x style: false\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdc0589/jsformat-atom.git"
+  },
+  "version": "0.9.3"
+}
