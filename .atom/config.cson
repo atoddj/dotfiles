@@ -40,8 +40,8 @@
   "exception-reporting":
     userId: "2e4b7aff-a04e-575a-50c6-f11c5840add5"
   jsformat:
+    end_with_newline: false
     format_on_save: false
-    indent_with_tabs: true
     jslint_happy: true
   linter:
     errorPanelHeight: 26
